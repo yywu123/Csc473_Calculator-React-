@@ -1,0 +1,117 @@
+.display {
+  width: 98%;
+  height: 72px;
+  border-radius: 6px;
+  display: flex;
+  color: black;
+  align-items: flex-end;
+  border: 1px solid gray;
+  margin: 15px 0 25px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.display:hover {
+  border: 1px solid black !important;
+  box-shadow: 0 0 3px black !important;
+}
+
+#result {
+  border: none;
+  text-align: right;
+  width: 100%;
+  font-size: 20px;
+}
+
+#board {
+  border: none;
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+input:disabled {
+  background: transparent;
+  margin-top: 5px;
+  padding-right: 8px;
+  color: black;
+}
+
+.cal {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 50px auto;
+  height: 335px;
+  box-shadow: black 0px 5px 15px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.function {
+  background: #dadce0;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  color: #202124;
+}
+
+.number {
+  background: #f1f3f4;
+  border: 1px solid #f1f3f4;
+  border-radius: 4px;
+  color: #202124;
+}
+button {
+  border-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  width: 85px;
+  height: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+button:active {
+  border: 1px solid gray;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3f453f;
+  color: #fff;
+}
+
+.equal {
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 4px;
+  color: #fff;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(QuiteMagicalRegular-8VA2.ttf);
+}
+
+.title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height: 0rem;
+  text-align: center;
+  color: #154c79;
+  font-family: myFirstFont;
+  font-size: 50px;
+}
+
+body {
+  background-color: #dbb479;
+}
+
+.information {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
